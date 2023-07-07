@@ -33,6 +33,10 @@ public class E01MethodBasic {
 		namePrint(name);
 	}
 	
+	public static void aFunc() {
+		System.out.println("안녕하세요");
+	}
+	
 	/*
 	메소드3 : 반환값 X, 매개변수 O 형태로 정의
 	=> 문자열을 인수로 전달받아 단순히 출력만 한다. 반환값이 없는 경우에는 실행이 종료되면
@@ -54,6 +58,8 @@ public class E01MethodBasic {
 		
 		// 메소드의 실행이 종료되면 항상 호출한 지점으로 돌아온다.
 		menuPrint();
+		
+		aFunc();
 	}
 
 }
