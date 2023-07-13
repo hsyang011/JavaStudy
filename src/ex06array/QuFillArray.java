@@ -16,7 +16,6 @@ public class QuFillArray {
 			System.out.printf("%d번째 정수를 입력하세요: ", i+1);
 			arr[i] = scanner.nextInt();
 		}
-		
 		// 입력한 배열 요소를 모두 출력
 		System.out.printf("순서대로 입력된 결과\n");
 		for (int item : arr) {
