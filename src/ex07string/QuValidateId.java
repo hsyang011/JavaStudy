@@ -34,6 +34,13 @@ public class QuValidateId {
 		// scanner인스턴스의 nextLine()메소드를 이용해 콘솔로부터 입력을 받아 id에 저장한다.
 		String id = scanner.nextLine();
 		
+		/* 만약 String을 JavaScript처럼 배열로 만들고 싶다면 toCharArray()
+		메소드를 사용하면 된다. 해당 메소드는 String을 char타입의 배열로 변환해준다. */
+		char[] charArr = id.toCharArray();
+		for (int i=0; i<charArr.length; i++) {
+			System.out.print(charArr[i] + "-");
+		}
+		
 		// idValidate()에 id를 인자로 넣어 호출한다.
 		// 반환타입은 boolean이므로 boolean타입의 isAvailable변수가 반환값을 받도록 한다.
 		boolean isAvailable = idValidate(id);
