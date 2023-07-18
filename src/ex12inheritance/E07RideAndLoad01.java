@@ -110,6 +110,22 @@ public class E07RideAndLoad01 {
 		기본자료형과 동일하게 소괄호를 이용하면 된다. */
 		B refId2 = (B)refId1;
 		C refId3 = (C)refId1;
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		A a1 = new B();
+		B b1 = (B)a1; // 정상적으로 실행
+		
+		
+		A a2 = new A();
+		B b2 = (B)a2; // 런타임에러 발생
+		// A cannot be cast to class B
 	}
 
 }
