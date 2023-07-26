@@ -17,6 +17,7 @@ class AgeErrorException extends Exception {
 public class Ex06DeveloperDefine {
 
 	public static void main(String[] args) {
+		
 		System.out.print("나이를 입력하세요 : ");
 		
 		try {

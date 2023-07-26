@@ -12,7 +12,7 @@ public class QuRPSException {
 		
 		Scanner scanner = new Scanner(System.in);
 		Random random = new Random();
-		int gameCount = 0; 
+		int gameCount = 0;
 		
 		while(true) {
 			//1.난수생성
