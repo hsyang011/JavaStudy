@@ -12,7 +12,7 @@ public class AccessModifier {
 
 	public static void main(String[] args) {
 		Date date = new Date();
-		date.getTime();
+		date.getTime(); 
 		
 		A a = new A();
 		a.aFunc();
