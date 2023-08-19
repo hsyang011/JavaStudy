@@ -11,7 +11,7 @@ abstract class ISchool1 {
 기능을 가질 수 없고, 오직 오버라이딩의 목적으로만 사용된다. */
 interface ISchool1 {
 	void studyLambda(String str);
-}
+} 
 
 /* 추상메소드를 포함한 인터페이스를 구현하면 하위클래스에서는 반드시 오버라이딩 해야 한다.
 추상메소드를 포함한 클래스는 반드시 abstract로 선언하거나, 그렇지 않으면 오버라이딩을 통해
