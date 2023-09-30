@@ -3,6 +3,7 @@ package ex17collection;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Vector;
 
 /* ArrayList<E> : List계열의 컬렉션
@@ -15,7 +16,7 @@ public class Ex03ArrayList1 {
 	public static void main(String[] args) {
 		/* String인스턴스를 저장할 수 있는 List컬렉션 생성 ArrayList와 나머지
 		컬렉션들은 데이터를 저장하는 내부적인 자료구조만 다를 뿐 사용법은 100% 동일하다. */
-		ArrayList<String> list = new ArrayList<String>();
+		List<String> list = new ArrayList<String>();
 //		LinkedList<String> list = new LinkedList<String>();
 //		Vector<String> list = new Vector<String>();
 		
