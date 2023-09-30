@@ -1,7 +1,7 @@
 package common;
 
 public class Person {
-	// 멤버변수
+	// 멤버변수 
 	private String name;
 	private int age;
 
