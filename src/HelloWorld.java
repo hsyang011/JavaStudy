@@ -7,7 +7,7 @@ public class HelloWorld {
 		// 문자열(String)을 작성할 때는 더블쿼테이션을 사용한다.
 		System.out.println("AB");
 		System.out.println("Hello World");
-		System.out.println("안녕? 자바야...!!!");
+		System.out.println("안녕? 자바야...!!!"); 
 	}
 
 }
